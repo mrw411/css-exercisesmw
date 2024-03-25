@@ -20,3 +20,6 @@ button {
 button:hover{
   transform: scale(1.5);
 }
+button{
+  transition: all 1s;
+}
