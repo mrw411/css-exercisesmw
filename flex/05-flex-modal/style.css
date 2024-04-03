@@ -85,3 +85,7 @@ button.cancel {
 .text{
   margin-bottom: 15px;
 }
+
+.icon{
+  flex-shrink: 0;
+}
