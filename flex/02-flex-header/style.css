@@ -35,8 +35,7 @@ a {
 
 ul{
   display: flex;
+  gap: 8px;
 }
-li{
-  padding: 5px;
-}
+
 
