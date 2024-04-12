@@ -26,41 +26,39 @@ input {
   margin-bottom: 16px;
 }
 
-
-.header{
+body{
   display: flex;
-  justify-content: space-between;
-}
-
-.footer{
-  display: flex;
-justify-content: space-between;
-align-items: flex-end;
-}
-
-.footer .left-links{
-  display: flex;
-  gap: 20px;
-}
-
-.footer .right-links{
-  display: flex;
-  gap: 20px;
-}
-
-.header .left-links{
-  display: flex;
-  gap: 20px;
-}
-
-.header .right-links{
-  display: flex;
-  gap: 20px;
+  flex-direction: column;
 }
 
 .content{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
+a{
+  color: #666;
+  text-decoration: none;
+}
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer{
+  background: #eee;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
 
